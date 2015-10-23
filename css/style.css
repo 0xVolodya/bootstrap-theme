@@ -1,0 +1,113 @@
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    font-family: Merrriweather,'Helvetica Neue',Arial;
+}
+hr{
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
+.navbar-default{
+    background-color: #fff;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.navbar-default{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header  {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/header.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+header .header-content{
+    width: 100%;
+
+    padding: 100px 15px;
+    text-align: center;
+
+}
+header .header-content-inner{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header p{
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.btn{
+    border: 0;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+
+/*section*/
+section{
+    padding: 100px 0;
+}
+.bg-primary{
+    background-color: #f05f40;
+}
+section hr{
+    background-color: white;
+}
+section .light{
+    border-color: white;
+}
+
+/*section portfolio*/
+.no-padding{
+    padding: 0;
+}
+
+.portolio-box{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+/*gutter???*/
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.portolio-box .portfolio-box-caption{
+    display: block;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+@media(min-width:768px) {
+    header{
+        min-height: 100%;
+    }
+    header .header-content{
+        top: 50%;
+        position: absolute;
+        padding: 0 50px;
+    }
+}
