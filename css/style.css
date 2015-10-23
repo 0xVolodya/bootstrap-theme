@@ -100,6 +100,38 @@ section .light{
     height: 100%;
     position: absolute;
     text-align: center;
+    color: white;
+    background-color: #f05f40;
+    opacity: 0;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.portolio-box .portfolio-box-caption .portfolio-box-cation-content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.project-category{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.portolio-box:hover .portfolio-box-caption{
+    opacity: .7;
+}
+
+/*aside .bg-dark*/
+aside{
+    padding: 50px 0;
+
+}
+.bg-dark{
+    background-color: black;
+    color: white;
 }
 @media(min-width:768px) {
     header{
@@ -110,4 +142,12 @@ section .light{
         position: absolute;
         padding: 0 50px;
     }
+}
+.btn-default{
+    color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
