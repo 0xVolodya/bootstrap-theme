@@ -25,7 +25,8 @@ hr{
 }
 .navbar-default{
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
+    color: white;
 }
 
 header  {
