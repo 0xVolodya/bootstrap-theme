@@ -6,12 +6,16 @@ html,body{
 body{
     font-family: Merrriweather,'Helvetica Neue',Arial;
 }
+a:hover{
+    color: #f05f40;
+}
 hr{
     max-width: 50px;
     border-color: #f05f40;
     border-width: 3px;
 }
 .navbar-default{
+    display: block;
     background-color: #fff;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
@@ -133,7 +137,20 @@ aside{
     background-color: black;
     color: white;
 }
+
+/*contacts*/
+#contact a{
+    text-decoration: none;
+}
+
+
 @media(min-width:768px) {
+    .navbar-default{
+        background-color: transparent;
+    }
+    .navbar-default.affix {
+        background-color: #fff;
+    }
     header{
         min-height: 100%;
     }
